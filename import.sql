@@ -66,3 +66,9 @@ WHERE
 ORDER BY "year", "name";
 
 SELECT * FROM meteorites LIMIT 5;
+
+SELECT id, name, class, mass, discovery, year, lat, long
+FROM meteorites
+ORDER BY year, name
+LIMIT 10;
+
